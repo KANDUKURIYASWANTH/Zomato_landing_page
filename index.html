@@ -30,6 +30,7 @@
     <title>Zomato Landing Page Clone</title>
 </head>
 <body>
+  <div class="main_container">
     <!-- This is fir hero section -->
     <section class="hero__section">
       <header>
@@ -48,9 +49,9 @@
       </header>
       <div class="hero__section_container">
         <img src="./images/heroSectionLogo.png" alt="Zomato Logo" class="hero__section_logo">
-        <h1 class="hero__section_title">Discover the best food & drinks in Hampi-Hospet</h1>
+        <h1 class="hero__section_title">Discover the best food & drinks in Prayagraj</h1>
         <div class="hero__section_input_container">
-            <input class="hero_container_location" type="text" placeholder="Hampi-Hospet">
+            <input class="hero_container_location" type="text" placeholder="Prayagraj">
             <input class="hero_container_search" type="text" placeholder="Search for restaurant, cuisine or dish">
         </div>
       </div>
@@ -91,7 +92,7 @@
       <h1>Collection</h1>
       <div class="sub__heading_container">
         <span>Explore curated lists of top restaurants, cafes, pubs in Hospet-Hampi based on trends</span>
-        <span>All collections in Hospet-Hampi</span>
+        <span>All collections in Prayagraj</span>
       </div>
       <div class="collections_card_container">
         <div class="card card1">
@@ -164,5 +165,119 @@
       </div>
 
     </section>
+    <!-- This is for explore options near me -->
+    <section class="explore_options_container">
+      <h1>Explore options near me</h1>
+    
+      <div class="dropbox dropbox1">
+        <select id="popular-cuisines" name="popular-cuisines">
+          <option value="">Popular cuisines:</option>
+          <option value="indian">Indian</option>
+          <option value="italian">Italian</option>
+          <option value="mexican">Mexican</option>
+          <option value="chinese">Chinese</option>
+        </select>
+      </div>
+    
+      <div class="dropbox dropbox2">
+        <select id="delivery-cities" name="delivery-cities">
+          <option value="">Cities we deliver to:</option>
+          <option value="delhi">Delhi</option>
+          <option value="mumbai">Mumbai</option>
+          <option value="chennai">Chennai</option>
+          <option value="kolkata">Kolkata</option>
+          <option value="vishakapatnam">Vishakapatnam</option>
+          <option value="bangalore">Bangalore</option>
+          <option value="hyderabad">Hyderabad</option>
+          <option value="prayagraj">Prayagraj</option>
+          <option value="lucknow">Lucknow</option>
+          <option value="noida">Noida</option>
+        </select>
+      </div>
+    
+      <div class="dropbox dropbox3">
+        <select id="popular-restaurants" name="popular-restaurants">
+          <option value="">Popular restaurants near me:</option>
+          <option value="mandi">Mandi</option>
+          <option value="helapuri">Helapuri</option>
+          <option value="hotel-royal">Hotel Royal</option>
+          <option value="dawaat">Dawaat</option>
+          <option value="shawarma">Shawarma</option>
+          <option value="mr-dewsis">Mr. Dewsis</option>
+          <option value="sagar-ratna">Sagar Ratna</option>
+          <option value="paradise-biryani">Paradise Biryani</option>
+          <option value="punjab-grill">Punjab Grill</option>
+          <option value="hello-prayagraj">Hello! prayagraj</option>
+        </select>
+      </div>
+    </section>
+    <!-- This is for footer section -->
+    <footer class="container footer">
+      <div class="footer_section1">
+        <img src="images/logo.png" alt="zomato logo" />
+              <div class="section1__buttonContainer">
+                  <button>
+                    <img src="https://flagcdn.com/w40/in.png" alt="Indian Flag"  style="width: 15px"/>
+                    India
+                  </button>
+                  <button><i class="fa fa-globe"></i> English</button>
+              </div>
+      </div>
+      <div class="navigation_container">
+        <div class="link__container">
+          <h5>ABOUT ZOMATO</h5>
+          <a class="footer__link" href="#">Who we are</a>
+          <a class="footer__link" href="#">Blogs</a>
+          <a class="footer__link" href="#">Work with us</a>
+          <a class="footer__link" href="#">Investor Relations</a>
+          <a class="footer__link" href="#">Report Fraud</a>
+          <a class="footer__link" href="#">Contact Us</a>
+        </div>
+
+
+        <div class="link__container">
+          <h5>ZOMAVERSE</h5>
+          <a class="footer__link" href="#">Zomato</a>
+          <a class="footer__link" href="#">Blinkit</a>
+          <a class="footer__link" href="#">Feeding India</a>
+          <a class="footer__link" href="#">Hyperpure</a>
+          <a class="footer__link" href="#">Zomaland</a>
+        </div>
+
+
+        <div class="link__container">
+          <h5>FOR RESTAURANTS</h5>
+          <a class="footer__link" href="#">Partner With Us</a>
+          <a class="footer__link" href="#">Apps for You</a>
+          <br />
+          <h5>FOR ENTERPRISES</h5>
+          <a class="footer__link" href="#">Zomato For Work</a>
+        </div>
+
+
+        <div class="link__container">
+          <h5>LEARN MORE</h5>
+          <a class="footer__link" href="#">Privacy</a>
+          <a class="footer__link" href="#">Security</a>
+          <a class="footer__link" href="#">Terms</a>
+          <a class="footer__link" href="#">Sitemap</a>
+        </div>
+        <div class="link__container">
+          <h5>Social Media</h5>
+          <div class="section__links_container">
+              <button><i class="fa-brands fa-linkedin-in"></i></button>
+              <button><i class="fa-brands fa-instagram"></i></button>
+              <button><i class="fa-brands fa-twitter"></i></button>
+              <button><i class="fa-brands fa-facebook"></i></button>
+              <button><i class="fa-brands fa-youtube"></i></button>
+          </div>
+          <br />
+          <img src="./images/appleStore.png" alt="apple store" class="footer__section_logos" />
+          <img src="./images/playStore.png" alt="play store" class="footer__section_logos" />
+      </div>
+      </div>
+      <div class="disclaimer">By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2023 © Zomato™ Ltd. All rights reserved.</div>
+    </footer>
+  </div>
   </body>
 </html>
